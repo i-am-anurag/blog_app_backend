@@ -66,7 +66,7 @@ This project implements the backend for a dynamic blog page where administrators
 | GET    | /api/blogs            | Get all blogs                         | Public              |
 | PUT    | /api/blogs/:id        | Update a blog (Admin only)            | Private, Admin only |
 | DELETE | /api/blogs/:id        | Delete a blog (Admin only)            | Private, Admin only |
-| POST   | /api/blogs/like       | Like a blog                           | Private             |
+| POST   | /api/blogs/likes/toggle|  Like a blog                         | Private             |
 | POST   | /api/blogs/comment    | Add a comment to a blog               | Private             |
 | POST   | /api/blogs/:id/share  | Share a blog                          | Private             |
 
